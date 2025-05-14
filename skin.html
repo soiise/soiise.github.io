@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./images/font.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monda">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="[##_blog_link_##]favicon.ico">
+<title>[##_title_##]</title>
+</head>
+<body id="[##_body_id_##]">
+<s_t3>
+<div id="wrap">
+	<div class="slide-image">
+		<!-- 슬라이드 사진 -->
+		<img src="https://i.ibb.co/zVB81RTb/BB-ezgif-com-crop.gif" alt="slide-image">
+	</div>
+	<div id="container">
+		<div class="bar">
+		</div>
+		<nav>
+		<s_paging>
+		<div class="paging">
+			<a [##_prev_page_##] class="[##_no_more_prev_##] w" id="p_left"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+			<!--<span class="numbox">
+<s_paging_rep>
+<a [##_paging_rep_link_##] class="num">[##_paging_rep_link_num_##]</a>
+</s_paging_rep>
+</span>-->
+			<a [##_next_page_##] class="[##_no_more_next_##] w" id="p_right"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+		</div>
+		</s_paging>
+		<div class="profileimg">
+			<a>[##_blog_image_##]</a>
+			<div class="pwrap">
+				<div class="p_name">
+					<a href="/category">into you</a>
+				</div>
+				<div class="p_mail">
+					 AMPERS&ONE - Kick Start
+				</div>
+				<div class="search w">
+					<s_search>
+					<i class="fa fa-search"></i><input type="text" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode==13) { [##_search_onclick_submit_##] }">
+					</s_search>
+				</div>
+			</div>
+			<!-- /pwrap -->
+			<div class="link_wrap">
+				<div class="bloglink">
+					<ul>
+						<li>
+						<div class="main">
+							 COPYRIGHTER
+						</div>
+						 Apricot.</li>
+						<li>
+						<div class="main">
+							 TISTORY
+						</div>
+						<a href="https://intoyou1123.tistory.com" target="_blank">Into</a>You</li>
+						<li>
+						<div class="main">
+							 TWITTER
+						</div>
+						<a href="https://www.twitter.com/intoyou1123" target="_blank">intoyou1123</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- /link_wrap -->
+			<div class="menubar">
+				<div class="category">
+					<a class="b_category boldname">HOME<i class="fa fa-angle-down"></i></a>
+					<ul>
+						<li><a href="/tag/gifs">GIFS</a></li>
+						<ol>
+					</ul>
+				</div>
+				<!-- /category -->
+				<div class="info">
+					<a href="/notice" class="boldname">notice</a>
+				</div>
+				<div class="link boldname">
+					 link
+				</div>
+				<div class="guestbook">
+					<a href="/guestbook" class="boldname">contact</a>
+				</div>
+				<div class="heart">
+					<i class="fa fa-heart"></i>
+				</div>
+			</div>
+			<!-- /menubar -->
+		</div>
+		</nav>
+		<div id="content">
+			<s_list>
+			<div class="searchlist_c">
+				 [##_list_conform_##]
+			</div>
+			</s_list>
+			<s_article_rep>
+			<div class="entry">
+				<s_index_article_rep>
+				<div class="searchlist">
+					<li>
+					<a href="[##_article_rep_link_##]" class="link_post"><span class="searchlist_title">[##_article_rep_title_##]</span></a>
+					</li>
+				</div>
+				</s_index_article_rep>
+				<s_permalink_article_rep>
+				<div class="article">
+					<div class="article_info">
+						<div class="article_title">
+							 [##_article_rep_title_##]
+						</div>
+						<div class="article_d">
+						</div>
+						<div class="article_date">
+							 [##_article_rep_date_##]
+						</div>
+					</div>
+					<s_tag_label>
+					<div class="tagtrail">
+						<a>[##_tag_label_rep_##]</a>
+					</div>
+					</s_tag_label>
+					<s_ad_div>
+					<div class="admin">
+						<a href="[##_s_ad_m_link_##]" class="link_detail">수정 </a>|<a href="#" onclick="[##_s_ad_s2_onclick_##]" class="link_detail"> [##_s_ad_s1_label_##] </a>|<a href="#" onclick="[##_s_ad_d_onclick_##]" class="link_detail"> 삭제</a>
+					</div>
+					</s_ad_div>
+					<div class="article_entry">
+						 [##_article_rep_desc_##]
+					</div>
+					<div class="actiontrail">
+						<a>댓글<span class="cnt">+ [##_article_rep_rp_cnt_##]</span></a>
+					</div>
+				</div>
+				<!-- /article -->
+				<s_rp>
+				<div class="rp_content">
+					<s_rp_input_form>
+					<div class="commentwrite">
+						<div class="secretWrap">
+							<input type="checkbox" id="secret" name="[##_rp_input_is_secret_##]"><label for="secret">SECRET</label>
+						</div>
+						<s_rp_member>
+						<s_rp_guest>
+						<div class="writer_info">
+							<input type="text" placeholder="NAME" name="[##_rp_input_name_##]" value="[##_guest_name_##]" class="rp_v_name" onfocus="">
+							<input type="password" placeholder="PASSWORD" maxlength="8" name="[##_rp_input_password_##]" class="rp_v_pass">
+							<input type="text" placeholder="HOMEPAGE" name="[##_rp_input_homepage_##]" value="[##_guest_homepage_##]" class="rp_v_home" onfocus="">
+						</div>
+						</s_rp_guest>
+						</s_rp_member>
+						<textarea name="[##_rp_input_comment_##]" rows="10" cols="50" class="rp_textarea" onfocus=""></textarea>
+						<input name="rp_submit" type="submit" class="rp_submit" onclick="[##_rp_onclick_submit_##]" value="전송">
+					</div>
+					<!-- /commentwrite -->
+					</s_rp_input_form>
+					<div class="commentlist">
+						<s_rp_container>
+						<ol>
+							<s_rp_rep>
+							<li id='[##_rp_rep_id_##]'>
+							<div class="[##_rp_rep_class_##]">
+								<div class="rp_info">
+									<span class="rp_name">[##_rp_rep_name_##]</span>
+									<span class="rp_date">[##_rp_rep_date_##]</span>
+									<span class="rp_control">
+									<a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify">수정/삭제</a></span>
+									<span class="rp_control"><a href="#" onclick="[##_rp_rep_onclick_reply_##]" class="write">답글</a></span>
+								</div>
+								<span class="rp_rep_desc">[##_rp_rep_desc_##]</span>
+							</div>
+							<s_rp2_container>
+							<ul>
+								<s_rp2_rep>
+								<li id='[##_rp_rep_id_##]'>
+								<div class="[##_rp_rep_class_##]">
+									<div class="rp_info">
+										<span class="rp_name">[##_rp_rep_name_##]</span>
+										<span class="rp_date">[##_rp_rep_date_##]</span>
+										<span class="rp_control">
+										<a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify">수정/삭제</a></span>
+									</div>
+									<span class="rp_rep_desc">[##_rp_rep_desc_##]</span>
+								</div>
+								</li>
+								</s_rp2_rep>
+							</ul>
+							</s_rp2_container>
+							</li>
+							</s_rp_rep>
+						</ol>
+						</s_rp_container>
+					</div>
+					<!-- /commentlist -->
+				</div>
+				<!-- /rp_content -->
+				</s_rp>
+				</s_permalink_article_rep>
+			</div>
+			<!-- /entry -->
+			</s_article_rep>
+			<s_article_protected>
+			<s_index_article_rep>
+			<div class="searchlist">
+				<li>
+				<a href="[##_article_rep_link_##]" class="link_post"><span class="searchlist_title">[##_article_rep_title_##]</span></a>
+				</li>
+			</div>
+			</s_index_article_rep>
+			<s_permalink_article_rep>
+			<div class="protected">
+				<span>비밀번호를 입력해주세요.</span>
+				<div>
+					<input type="password" class="protected_input" maxlength="16" id="[##_article_password_##]" name="[##_article_password_##]" value="" onkeydown="if (event.keyCode==13)[##_article_dissolve_##]">
+				</div>
+				<div>
+					<input type="button" class="protected_submit" value="입력" onclick="[##_article_dissolve_##]">
+				</div>
+			</div>
+			<!-- /pretected -->
+			</s_permalink_article_rep>
+			</s_article_protected>
+			<s_notice_rep>
+			<div class="notice">
+				<div class="notice_title">
+					<span>[##_notice_rep_title_##]</span>[##_notice_rep_date_##]
+				</div>
+				<div class="notice_article">
+					 [##_notice_rep_desc_##]
+				</div>
+			</div>
+			<!-- /notice -->
+			</s_notice_rep>
+			<s_tag>
+			<div class="taglog">
+				<div>
+					<s_tag_rep>
+					<a href="[##_tag_link_##]" class="[##_tag_class_##]">[##_tag_name_##]</a>
+					</s_tag_rep>
+				</div>
+			</div>
+			<!-- /taglog -->
+			</s_tag>
+			<s_guest>
+			<div class="guest_form">
+				<s_guest_input_form>
+				<div class="guestwrite">
+					<div class="secretWrap">
+						<input type="checkbox" id="secret" name="[##_rp_input_is_secret_##]" class="my_checkbox" checked="checked"><label for="secret">SECRET</label>
+					</div>
+					<div class="guest_write">
+						<s_guest_member>
+						<s_guest_form>
+						<input type="text" placeholder="NAME" name="[##_guest_input_name_##]" value="[##_guest_name_##]" class="guest_input" onfocus="">
+						<input type="password" name="[##_guest_input_password_##]" class="guest_input" value="[##_guest_password_##]" placeholder="PASSWORD" onfocus="">
+						<input type="text" name="[##_guest_input_homepage_##]" value="[##_guest_homepage_##]" class="guest_input" onfocus="">
+						</s_guest_form>
+						</s_guest_member>
+						<textarea type name="[##_guest_textarea_body_##]" cols="40" rows="5" class="guest_textarea" placeholder="바르고 고운말을 사용합시다."></textarea>
+						<input name="guest_submit" type="submit" class="guest_submit" onclick="[##_guest_onclick_submit_##]" value="보내기">
+					</div>
+					<!-- /방명록 쓰기 -->
+				</div>
+				</s_guest_input_form>
+				<s_guest_container>
+				<div class="guestlist">
+					<ol>
+						<s_guest_rep>
+						<li id="[##_guest_rep_id_##]">
+						<div class="[##_guest_rep_class_##]">
+							<div class="guest_rep">
+								<div class="guest_info">
+									<span class="guest_name"><span class="guest_from">From:</span><span class="name">[##_guest_rep_name_##]</span>guest@<span class="gname"></span></span>
+									<span class="guest_date">Date: [##_guest_rep_date_##]</span>
+									<span class="guest_control"><a href="#" onclick="[##_guest_rep_onclick_delete_##]" class="modify">수정/삭제</a></span>
+									<span class="guest_control"><a href="#" onclick="[##_guest_rep_onclick_reply_##]" class="write">답장</a></span>
+								</div>
+								<div class="guest_rep_desc">
+									 [##_guest_rep_desc_##]
+								</div>
+							</div>
+						</div>
+						<s_guest_reply_container>
+						<ul>
+							<s_guest_reply_rep>
+							<li id="[##_guest_rep_id_##]">
+							<div class="[##_guest_rep_class_##]">
+								<div class="guest_info">
+									<span class="guest_name"><span class="guest_from">From:</span><span class="name">[##_guest_rep_name_##]</span>guest@<span class="gname"></span></span>
+									<span class="guest_date">Date: [##_guest_rep_date_##]</span>
+									<span class="guest_control"><a href="#" onclick="[##_guest_rep_onclick_delete_##]" class="modify">수정/삭제</a></span>
+								</div>
+								<span class="guest_rep_desc">[##_guest_rep_desc_##]</span>
+							</div>
+							</li>
+							</s_guest_reply_rep>
+						</ul>
+						</s_guest_reply_container>
+						</li>
+						</s_guest_rep>
+					</ol>
+				</div>
+				<!-- /guestlist -->
+				</s_guest_container>
+			</div>
+			<!-- /guest_form -->
+			</s_guest>
+		</div>
+		<!-- /content -->
+	</div>
+	<!-- /container -->
+</div>
+<!-- /wrap -->
+<!-- 카피라이트 삭제 금지 링크 삭제 금지 -->
+<div class="copyright">
+	<a href="http://mellowapricot.tistory.com" target="_blink">ⓒ</a>
+</div>
+</s_t3>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+            $(document).ready(function () {
+                $(".heart").click(function () {
+                    $(".slide-image img").toggleClass("background-position")
+                });
+                $(".profileimg img").click(function () {
+                    $(".menubar").slideToggle(500);
+                    $(this).toggleClass("rotate");
+                });
+                $("nav .link").click(function () {
+                    $(".bloglink").slideToggle(600);
+                });
+                $("nav .b_category").click(function () {
+                    $(".category ul").slideToggle(600);
+                });
+                $(".guest_name").each(function () {
+                    var gname = $(this);
+                    var address = gname.find("a").attr("href");
+                    var addd = gname.find(".gname").append(address);
+                    addd.text(addd.text().replace("http://", ""));
+                    if ($(this).find(".name").text() == "") {
+                        $(this).find(".gname").html("secret.com");
+                    } else if ($(this).find(".gname").text() == "") {
+                        $(this).find(".gname").html("null.net")
+                    }
+                });
+            });
+        </script>
+</body>
+</html>
